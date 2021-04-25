@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(253, 251, 251);
+}
+img {
+  width: 300px;
+  border-radius: 8px;  
+  margin: 10px;
+  display: block;
+}
+
+#cabecalho{
+  background-color: rgb(27, 163, 0);
+  color: rgb(231, 236, 239);
+  z-index: 2 ;
+  width:100% ;
+  position: fixed;
+  top: 0;
+}
+
+h1{
+padding:5px;
+border:green solid 2px;
+font: size 3em;
+font-family:monospace;
+}
+
+p{
+  line-height: 3;
+}
+
+
+#titulo {
+  text-align: center;
+}
+main{
+  margin-top:90px
+}
+
+
+
+#licoes_aprendidas , #licoes_a_aprender{
+  display:inline-block;
+  
+}
+#sobre_aluno , #sobre_aprendizado {
+  width: 48%;
+  display: inline-block;
+  margin: 0 1%;
+  line-height: 1.5em;
+}
+.lado-direito {
+  float: right;
+
+}
+
+#sobre {
+  margin: 0 auto;
+  display: block;
+}
+
+
+#rodape {
+  text-align: center;
+  width: 100%;
+  padding: 1em;
+  background-color: rgb(27, 163, 0);
+  color: rgb(231, 236, 239);
+  font-size: 1.5em;
+}
+
+
+
